@@ -1,0 +1,12 @@
+<input type="number" [(ngModel)]="num" />
+<select [(ngModel)]="chartType" (change)="draw()">
+  <option value="horizontalBar">Horizontal Bar</option>
+  <option value="bar">bar</option>
+  <option value="line">line</option>
+  <option value="radar">radar</option>
+  <option value="pie">pie</option>
+</select>
+<button (click)="randomizeData(); draw()">Draw</button>
+<div>
+  <canvas id="mychart"></canvas>
+</div>

@@ -1,0 +1,17 @@
+<label>data points</label><input type="number" [(ngModel)]="num" /><br />
+<label>chart type:</label><select [(ngModel)]="seriesType" (change)="draw()">
+  <option value="bar">bar</option>
+  <option value="column">column</option>
+  <option value="line">line</option>
+  <option value="area">area</option>
+  <option value="item">item</option>
+  <option value="networkgraph">networkgraph</option>
+  <option value="organization">organization</option>
+  <option value="pareto">pareto</option>
+  <option value="pie">pie</option>
+  <option value="pyramid">pyramid</option>
+  <option value="scatter">scatter</option>
+  <option value="solidgauge">solidgauge</option>
+</select><br />
+<button (click)="randomizeData(); draw()">Draw</button>
+<div [chart]="chart"></div>
