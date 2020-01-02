@@ -1,3 +1,4 @@
+import { RoundProgressComponent } from './round-progress/round-progress.component';
 import { ChartjsComponent } from './chartjs/chartjs.component';
 import { OutputGraphComponent } from './highcharts/highcharts.component';
 import { NgModule } from '@angular/core';
@@ -13,6 +14,9 @@ const routes: Routes = [{
 }, {
   path: 'd3',
   loadChildren: () => import('./d3/d3-charts.module').then(mod => mod.D3ChartsModules)
+}, {
+  path: 'circle-progress',
+  component: RoundProgressComponent
 }];
 
 @NgModule({
