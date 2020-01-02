@@ -174,14 +174,9 @@ export class OutputGraphComponent implements OnInit, AfterViewInit {
       0, true
       );
     let bbox = elem.getBBox();
-    console.log(chart.chartWidth, chart.chartHeight, bbox);
     elem.add();
     bbox = elem.getBBox();
     elem.align({x: (chart.chartWidth / 2) - bbox.width / 2, y: (chart.chartHeight / 2)});
-    console.log(chart.chartWidth, chart.chartHeight, bbox);
-
-
-    console.log(chart);
   }
 
 }
