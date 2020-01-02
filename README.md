@@ -5,3 +5,6 @@ This is an example project to show usage of different charting libraries in angu
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Example
+<img src="https://raw.githubusercontent.com/tdecker91/charts-example/master/src/app/assets/readme-screenshot.png" />
