@@ -22,7 +22,7 @@
     "angular-highcharts": "^8.0.3",
     "angular-svg-round-progressbar": "^3.0.1",
     "chart.js": "^2.9.3",
-    "d3": "^5.14.2",
+    "d3": "^7.6.1",
     "faker": "^4.1.0",
     "highcharts": "^8.0.0",
     "rxjs": "~6.4.0",
